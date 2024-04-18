@@ -27,7 +27,7 @@ To generate the documentation site locally or for deployment, follow these steps
    ```
 
 5. **Access the Documentation Site:**
-   Once Vitepress has successfully compiled the documentation site, you can access it in your web browser at the provided address (typically http://localhost:3000).
+   Once Vitepress has successfully compiled the documentation site, you can access it in your web browser at the provided address.
 
 ### Contributing to Documentation
 
