@@ -1,9 +1,9 @@
 ﻿# CritvizDocs
 
-Dependencies:
+Open the folder in terminal and use this command to install the dependencies (requires NodeJS and pnpm):
 
 ```sh
-pnpm add -D vitepress
+pnpm install
 ```
 
 To run:
