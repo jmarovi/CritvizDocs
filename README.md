@@ -56,9 +56,49 @@ To test Crivitz Documentation, follow these steps:
 4. Initiate the test app with `pnpm vitepress dev docs`.
 5. Access the provided address and port in your browser.
 
-### Troubleshooting
-- **Common Issues and Solutions**
-- **FAQs**
-
 ### Conclusion
 Crivitz offers a comprehensive solution for assignment management, enhancing the teaching and learning experience at academic institutions like ASU. Its intuitive interface and robust functionality make it an invaluable tool for both teachers and students alike.
+
+
+To include information about Vitepress in your README, you can add a section that explains how the documentation website is generated and any relevant details about its usage. Here's an example of how you can structure this section:
+
+```markdown
+## Documentation Website
+
+The Crivitz Documentation website is generated using Vitepress, a static site generator built on top of Vite, a modern build tool for JavaScript applications. Vitepress allows for easy creation of documentation websites using Markdown and Vue components.
+
+### Generating the Documentation Site
+
+To generate the documentation site locally or for deployment, follow these steps:
+
+1. **Clone the Repository:**
+   ```
+   git clone https://github.com/jmarovi/CrivitzDocs.git
+   ```
+
+2. **Navigate to the Repository:**
+   ```
+   cd CrivitzDocs
+   ```
+
+3. **Install Dependencies:**
+   ```
+   pnpm install
+   ```
+
+4. **Run Vitepress:**
+   ```
+   pnpm run dev
+   ```
+
+5. **Access the Documentation Site:**
+   Once Vitepress has successfully compiled the documentation site, you can access it in your web browser at the provided address (typically http://localhost:3000).
+
+### Contributing to Documentation
+
+To contribute to the documentation, you can edit the Markdown files located in the `docs` directory. After making changes, commit your changes to a new branch and create a pull request for review.
+
+For more information on Vitepress, refer to the [official documentation](https://vitepress.vuejs.org/).
+```
+
+This section provides clear instructions on how to generate and access the documentation website using Vitepress, as well as guidance on how to contribute to the documentation. Additionally, it includes a link to the official Vitepress documentation for further reference. Adjust the instructions as needed based on your specific setup and requirements.
