@@ -1,33 +1,33 @@
-## Crivitz Documentation
+## Critviz Documentation
 
-The Crivitz Documentation website is generated using Vitepress, a static site generator built on top of Vite, a modern build tool for JavaScript applications. Vitepress allows for easy creation of documentation websites using Markdown and Vue components.
+The Critviz Documentation website is generated using Vitepress, a static site generator built on top of Vite, a modern build tool for JavaScript applications. Vitepress allows for easy creation of documentation websites using Markdown and Vue components.
 
 ### Generating the Documentation Site
 
 To generate the documentation site locally or for deployment, follow these steps:
 
 1. **Clone the Repository:**
-   ```
-   git clone https://github.com/jmarovi/CrivitzDocs.git
+   ```sh
+   git clone https://github.com/jmarovi/CritvizDocs.git
    ```
 
 2. **Navigate to the Repository:**
-   ```
-   cd CrivitzDocs
+   ```sh
+   cd CritvizDocs
    ```
 
 3. **Install Dependencies:**
-   ```
+   ```sh
    pnpm install
    ```
 
 4. **Run Vitepress:**
-   ```
-   pnpm run dev
+   ```sh
+   pnpm vitepress dev docs
    ```
 
 5. **Access the Documentation Site:**
-   Once Vitepress has successfully compiled the documentation site, you can access it in your web browser at the provided address (typically http://localhost:3000).
+   Once Vitepress has successfully compiled the documentation site, you can access it in your web browser at the provided address.
 
 ### Contributing to Documentation
 
@@ -37,11 +37,11 @@ For more information on Vitepress, refer to the [official documentation](https:/
 
 ---
 
-### Crivitz Documentation
+### Critviz Documentation
 ### Version 1.0
 
 ### Introduction
-Welcome to the Crivitz Documentation! This comprehensive guide is tailored to help you understand and utilize the Crivitz web application efficiently. Developed to streamline assignment management, particularly for technical courses like programming at ASU, Crivitz Documentation covers detailed instructions on how to leverage its features and functionalities effectively.
+Welcome to the Critviz Documentation! This comprehensive guide is tailored to help you understand and utilize the Critviz web application efficiently. Developed to streamline assignment management, particularly for technical courses like programming at ASU, Critviz Documentation covers detailed instructions on how to leverage its features and functionalities effectively.
 
 ### Features
 #### Assignment Management
@@ -86,4 +86,4 @@ Welcome to the Crivitz Documentation! This comprehensive guide is tailored to he
 - **Submission Finalization**
 
 ### Conclusion
-Crivitz offers a robust solution for assignment management, enhancing the teaching and learning experience at academic institutions like ASU. Its user-friendly interface and extensive functionality make it a valuable tool for both educators and students.
+Critviz offers a robust solution for assignment management, enhancing the teaching and learning experience at academic institutions like ASU. Its user-friendly interface and extensive functionality make it a valuable tool for both educators and students.
