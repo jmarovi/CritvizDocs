@@ -8,14 +8,21 @@ PNPM serves as a robust package manager tailored for Node.js applications. Along
 
 To commence, adhere to the following steps:
 
-1. **Installation of Dependencies:**
-   Navigate to the designated folder within your terminal environment and execute the subsequent command to install essential dependencies. It is imperative to ensure prior installation of Node.js and PNPM:
+1. **Cloning the Repository:**
+   Begin by cloning the CritvizDocs repository from the designated GitHub repository. Execute the following command in your terminal:
+
+   ```sh
+   git clone https://github.com/jmarovi/CritvizDocs.git
+   ```
+
+2. **Installation of Dependencies:**
+   Navigate to the cloned directory within your terminal environment and execute the subsequent command to install essential dependencies. It is imperative to ensure prior installation of Node.js and PNPM:
 
    ```sh
    pnpm install
    ```
 
-2. **Application Initialization:**
+3. **Application Initialization:**
    Once the dependencies have been successfully installed, initiate the application by executing the ensuing command:
 
    ```sh
