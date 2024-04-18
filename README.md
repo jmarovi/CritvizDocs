@@ -1,68 +1,3 @@
-## Crivitz Documentation
-### Version 1.0
-
-### Introduction
-Crivitz Documentation serves as a comprehensive guide for understanding and utilizing the Crivitz web application—a platform designed to streamline assignment management for various university courses, particularly those in technical fields like programming, offered at ASU. This documentation provides detailed instructions on how to use Crivitz effectively, covering its features, usage, and additional functionalities.
-
-### Features
-#### Assignment Management
-- **New Assignments:** Create assignments with title, description, and visibility settings.
-- **Visibility Settings:** Choose visibility options for assignments.
-- **Deadline Management:** Set deadlines for assignments.
-- **Validation Options:** Enforce specific requirements for submissions.
-- **Late Submission:** Allow late submissions if necessary.
-- **Finalization of Submissions:** Choose whether submissions are final.
-
-#### Question Creation
-- **Question Management:** Add various types of questions to assignments.
-- **Question Types:** Support for File upload, YouTube URL submission, Multiple Choice, and Critique questions.
-- **Ordering of Questions:** Arrange the order of questions within assignments.
-
-#### Critique Assignments
-- **Assignment Selection:** Choose assignments for critique.
-- **Student Selection:** Specify students for critique.
-- **Number of Assignments:** Define the number of assignments each student should critique.
-- **Ranking Critiques:** Enable ranking of critiques based on predefined parameters.
-
-### Usage
-#### Creating Assignments
-1. Navigate to the "New Assignments" section.
-2. Fill out the form with assignment details.
-3. Set visibility, deadlines, validation, and late submission options.
-4. Finalize and create the assignment.
-
-#### Adding Questions
-1. Within assignment creation, navigate to the questions section.
-2. Click on "Add Question" and specify question details.
-
-#### Managing Critique Assignments
-- Select assignments for critique.
-- Choose students for critique.
-- Define the number of critiques per student.
-- Set parameters for ranking critiques.
-
-### Additional Functionality
-- **Visibility Settings**
-- **Deadline Management**
-- **Validation Options**
-- **Late Submission**
-- **Finalization of Submissions**
-
-### Running the Test App
-To test Crivitz Documentation, follow these steps:
-1. Clone the Crivitz Documentation repository from [GitHub](https://github.com/jmarovi/CrivitzDocs).
-2. Navigate to the cloned directory.
-3. Install dependencies using `pnpm install`.
-4. Initiate the test app with `pnpm vitepress dev docs`.
-5. Access the provided address and port in your browser.
-
-### Conclusion
-Crivitz offers a comprehensive solution for assignment management, enhancing the teaching and learning experience at academic institutions like ASU. Its intuitive interface and robust functionality make it an invaluable tool for both teachers and students alike.
-
-
-To include information about Vitepress in your README, you can add a section that explains how the documentation website is generated and any relevant details about its usage. Here's an example of how you can structure this section:
-
-```markdown
 ## Documentation Website
 
 The Crivitz Documentation website is generated using Vitepress, a static site generator built on top of Vite, a modern build tool for JavaScript applications. Vitepress allows for easy creation of documentation websites using Markdown and Vue components.
@@ -99,6 +34,56 @@ To generate the documentation site locally or for deployment, follow these steps
 To contribute to the documentation, you can edit the Markdown files located in the `docs` directory. After making changes, commit your changes to a new branch and create a pull request for review.
 
 For more information on Vitepress, refer to the [official documentation](https://vitepress.vuejs.org/).
-```
 
-This section provides clear instructions on how to generate and access the documentation website using Vitepress, as well as guidance on how to contribute to the documentation. Additionally, it includes a link to the official Vitepress documentation for further reference. Adjust the instructions as needed based on your specific setup and requirements.
+---
+
+### Crivitz Documentation
+### Version 1.0
+
+### Introduction
+Welcome to the Crivitz Documentation! This comprehensive guide is tailored to help you understand and utilize the Crivitz web application efficiently. Developed to streamline assignment management, particularly for technical courses like programming at ASU, Crivitz Documentation covers detailed instructions on how to leverage its features and functionalities effectively.
+
+### Features
+#### Assignment Management
+- **Creation:** Easily create new assignments with customizable title, description, and visibility settings.
+- **Visibility Settings:** Tailor visibility options for assignments to suit your needs.
+- **Deadline Management:** Set clear deadlines for assignments to keep tasks organized.
+- **Validation Options:** Enforce specific submission requirements for better assessment.
+- **Late Submission:** Provide flexibility by allowing late submissions when necessary.
+- **Submission Finalization:** Control whether submissions are considered final.
+
+#### Question Creation
+- **Diverse Questions:** Add various question types such as File Upload, YouTube URL Submission, Multiple Choice, and Critique to assignments.
+- **Ordering Flexibility:** Arrange questions within assignments according to your preference.
+
+#### Critique Assignments
+- **Customization:** Select assignments for critique and specify students for evaluation.
+- **Critique Allocation:** Define the number of critiques each student should provide.
+- **Ranking System:** Enable ranking of critiques based on predefined criteria.
+
+### Usage
+#### Creating Assignments
+1. Navigate to the "New Assignments" section.
+2. Fill out the form with assignment details.
+3. Customize visibility, deadlines, validation, and late submission options.
+4. Finalize and create the assignment.
+
+#### Adding Questions
+1. While creating an assignment, head to the questions section.
+2. Click on "Add Question" and provide question details.
+
+#### Managing Critique Assignments
+- Choose assignments for critique.
+- Specify students for critique.
+- Define the number of critiques per student.
+- Set parameters for ranking critiques.
+
+### Additional Functionality
+- **Visibility Settings**
+- **Deadline Management**
+- **Validation Options**
+- **Late Submission**
+- **Submission Finalization**
+
+### Conclusion
+Crivitz offers a robust solution for assignment management, enhancing the teaching and learning experience at academic institutions like ASU. Its user-friendly interface and extensive functionality make it a valuable tool for both educators and students.
