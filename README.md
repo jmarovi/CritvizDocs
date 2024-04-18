@@ -1,4 +1,4 @@
-## Documentation Website
+## Crivitz Documentation
 
 The Crivitz Documentation website is generated using Vitepress, a static site generator built on top of Vite, a modern build tool for JavaScript applications. Vitepress allows for easy creation of documentation websites using Markdown and Vue components.
 
