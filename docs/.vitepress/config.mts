@@ -1,37 +1,59 @@
 import { defineConfig } from 'vitepress'
-// https://vitepress.dev/reference/site-config
+
 export default defineConfig({
-  title: "Critviz Documentation",
-  description: "A VitePress Site",
+  title: "Documentation",
+  description: "Critviz Documentation",
   themeConfig: {
-    // https://vitepress.dev/reference/default-theme-config
-    // Logo image
     logo: 'assets/images/critviz.svg',
-    // Navigation
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Examples', link: '/markdown-examples' }
     ],
-    // Sidebar
     sidebar: [
       {
-        text: 'Guide',
-        collapsed: false,
+        text: 'Introduction',
         items: [
-          // This shows `/guide/index.md` page.
-          { text: 'Introduction', link: '/guide/' }
+          { text: 'Table of Contents', link: '/introduction' },
+          { text: 'Getting Started', link: '/getting-started' },
+          { text: 'Usage', link: '/usage' }
         ]
       },
       {
-        text: 'Examples',
-        collapsed: true,
+        text: 'Additional Functionality',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'VitePress Notes', link: '/api-examples' }
+          { text: 'Visibility Settings', link: '/additional-functionality#visibility-settings' },
+          { text: 'Deadline Management', link: '/additional-functionality#deadline-management' },
+          { text: 'Validation Options', link: '/additional-functionality#validation-options' },
+          { text: 'Late Submission', link: '/additional-functionality#late-submission' },
+          { text: 'Finalization of Submissions', link: '/additional-functionality#finalization-of-submissions' }
         ]
+      },
+      {
+        text: 'Advanced Features',
+        items: [
+          { text: 'Question Types', link: '/advanced-features#question-types' },
+          { text: 'Ordering of Questions', link: '/advanced-features#ordering-of-questions' },
+          { text: 'Specifying Critique Parameters', link: '/advanced-features#specifying-critique-parameters' },
+          { text: 'Ranking Critiques', link: '/advanced-features#ranking-critiques' }
+        ]
+      },
+      {
+        text: 'Troubleshooting',
+        link: '/troubleshooting'
+      },
+      {
+        text: 'FAQs',
+        link: '/faqs'
+      },
+      {
+        text: 'Glossary',
+        link: '/glossary'
+      },
+      {
+        text: 'Conclusion',
+        link: '/conclusion'
       }
     ],
-    // Social links
     socialLinks: [
       { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
     ],

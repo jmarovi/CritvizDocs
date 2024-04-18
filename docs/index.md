@@ -1,25 +1,20 @@
 ---
-# https://vitepress.dev/reference/default-theme-home-page
 layout: home
 
 hero:
   name: "Critviz Documentation"
-  text: "A VitePress Site"
-  tagline: My great project tagline
+  text: "Streamline Your Assignment Management"
+  tagline: "Enhance the Teaching and Learning Experience"
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
-    - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: Get Started
+      link: /introduction
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: Assignment Management
+    details: Create, manage, and evaluate assignments with ease.
+  - title: Question Creation
+    details: Add various types of questions to your assignments effortlessly.
+  - title: Critique Assignments
+    details: Foster collaborative learning by enabling students to critique their peers' work.
 ---
-
