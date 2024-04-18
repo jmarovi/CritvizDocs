@@ -1,10 +1,10 @@
 ---
-title: Crivitz Documentation
+title: Critviz Documentation
 ---
 
-# Crivitz Documentation
+# Critviz Documentation
 
-Welcome to the official documentation for Crivitz, the online platform designed to streamline assignment management for university courses!
+Welcome to the official documentation for Critviz, the online platform designed to streamline assignment management for university courses!
 
 ## Table of Contents
 

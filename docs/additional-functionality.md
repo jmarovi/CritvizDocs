@@ -4,7 +4,7 @@ outline: deep
 
 # Additional Functionality
 
-Explore additional features and functionalities offered by Crivitz to enhance your assignment management experience.
+Explore additional features and functionalities offered by Critviz to enhance your assignment management experience.
 
 ## Visibility Settings {#visibility-settings}
 

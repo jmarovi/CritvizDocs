@@ -4,11 +4,11 @@ outline: deep
 
 # Advanced Features
 
-Discover the advanced functionalities available in Crivitz to further enhance your assignment management experience.
+Discover the advanced functionalities available in Critviz to further enhance your assignment management experience.
 
 ## Question Types {#question-types}
 
-Explore the different types of questions supported by Crivitz, including file upload, YouTube URL submission, multiple choice, and critique.
+Explore the different types of questions supported by Critviz, including file upload, YouTube URL submission, multiple choice, and critique.
 
 ## Ordering of Questions {#ordering-of-questions}
 
