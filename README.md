@@ -13,7 +13,7 @@ To generate the documentation site locally or for deployment, follow these steps
 
 2. **Navigate to the Repository:**
    ```
-   cd CrivitzDocs
+   cd CritvizDocs
    ```
 
 3. **Install Dependencies:**
