@@ -33,7 +33,7 @@ To generate the documentation site locally or for deployment, follow these steps
 
 To contribute to the documentation, you can edit the Markdown files located in the `docs` directory. After making changes, commit your changes to a new branch and create a pull request for review.
 
-For more information on Vitepress, refer to the [[official documentation](https://vitepress.vuejs.org/)](https://vitepress.dev/guide/what-is-vitepress).
+For more information on Vitepress, refer to the [official documentation](https://vitepress.vuejs.org/).
 
 ---
 
