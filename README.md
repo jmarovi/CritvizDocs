@@ -48,15 +48,9 @@ Crivitz Documentation serves as a comprehensive guide for understanding and util
 - **Late Submission**
 - **Finalization of Submissions**
 
-### Advanced Features
-- **Question Types**
-- **Ordering of Questions**
-- **Specifying Critique Parameters**
-- **Ranking Critiques**
-
 ### Running the Test App
-To test Crivitz, follow these steps:
-1. Clone the Crivitz repository from [GitHub](https://github.com/jmarovi/Crivitz).
+To test Crivitz Documentation, follow these steps:
+1. Clone the Crivitz Documentation repository from [GitHub](https://github.com/jmarovi/CrivitzDocs).
 2. Navigate to the cloned directory.
 3. Install dependencies using `pnpm install`.
 4. Initiate the test app with `pnpm vitepress dev docs`.
