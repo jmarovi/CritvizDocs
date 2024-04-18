@@ -1,15 +1,27 @@
-# CritvizDocs
+## CritvizDocs
 
-To begin, navigate to the designated folder in your terminal environment and execute the following command to install the necessary dependencies. Please ensure that you have NodeJS and pnpm installed beforehand:
+### Overview of PNPM
 
-```sh
-pnpm install
-```
+PNPM serves as a robust package manager tailored for Node.js applications. Alongside npm and Yarn, PNPM facilitates streamlined management of dependency installation, updates, and removal within Node.js projects. Notably, PNPM distinguishes itself through its efficient disk space allocation and accelerated installation processes, attributed to its innovative dependency management technique known as "content-addressable storage." This methodology fosters dependency sharing across multiple projects, effectively minimizing redundancy and conserving disk space.
 
-Once the dependencies are installed, you can initiate the application by executing the following command:
+### Getting Started
 
-```sh
-pnpm vitepress dev docs
-```
+To commence, adhere to the following steps:
 
-Upon execution, the terminal will display the address and port for testing purposes.
+1. **Installation of Dependencies:**
+   Navigate to the designated folder within your terminal environment and execute the subsequent command to install essential dependencies. It is imperative to ensure prior installation of Node.js and PNPM:
+
+   ```sh
+   pnpm install
+   ```
+
+2. **Application Initialization:**
+   Once the dependencies have been successfully installed, initiate the application by executing the ensuing command:
+
+   ```sh
+   pnpm vitepress dev docs
+   ```
+
+### Testing
+
+Upon execution of the initialization command, the terminal will promptly provide the address and port for conducting testing procedures.
