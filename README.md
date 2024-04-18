@@ -8,7 +8,7 @@ To generate the documentation site locally or for deployment, follow these steps
 
 1. **Clone the Repository:**
    ```
-   git clone https://github.com/jmarovi/CrivitzDocs.git
+   git clone https://github.com/jmarovi/CritvizDocs.git
    ```
 
 2. **Navigate to the Repository:**
