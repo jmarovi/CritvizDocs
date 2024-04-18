@@ -7,23 +7,23 @@ The Crivitz Documentation website is generated using Vitepress, a static site ge
 To generate the documentation site locally or for deployment, follow these steps:
 
 1. **Clone the Repository:**
-   ```
+   ```sh
    git clone https://github.com/jmarovi/CritvizDocs.git
    ```
 
 2. **Navigate to the Repository:**
-   ```
+   ```sh
    cd CritvizDocs
    ```
 
 3. **Install Dependencies:**
-   ```
+   ```sh
    pnpm install
    ```
 
 4. **Run Vitepress:**
-   ```
-   pnpm run dev
+   ```sh
+   pnpm vitepress dev docs
    ```
 
 5. **Access the Documentation Site:**
